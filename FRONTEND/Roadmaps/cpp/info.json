@@ -1,0 +1,53 @@
+{
+    "Beginner": {
+        "Overview": "Understand the basics of C++ and object-oriented programming.",
+        "Topics": [
+            "Syntax and Data Types",
+            "Control Flow",
+            "Functions and Scope",
+            "OOP Basics (Classes, Objects)",
+            "Constructors and Destructors",
+            "Arrays and Vectors"
+        ],
+        "Projects": [
+            "Bank Management System",
+            "Basic Inventory System",
+            "Tic Tac Toe Game"
+        ],
+        "res": "https://roadmap.sh/cpp"
+    },
+    "Intermediate": {
+        "Overview": "Deep dive into OOP and STL usage.",
+        "Topics": [
+            "Inheritance and Polymorphism",
+            "Operator Overloading",
+            "Templates",
+            "Exception Handling",
+            "Standard Template Library (STL)",
+            "File Handling"
+        ],
+        "Projects": [
+            "Student Record using STL",
+            "File Encryption Tool",
+            "Mini Game Project"
+        ],
+        "res": "https://roadmap.sh/cpp"
+    },
+    "Advanced": {
+        "Overview": "Explore advanced topics and system-level programming.",
+        "Topics": [
+            "Multithreading in C++11",
+            "Smart Pointers",
+            "Move Semantics and Rvalue References",
+            "Memory Management",
+            "Design Patterns in C++",
+            "Compiler and OS-level Coding"
+        ],
+        "Projects": [
+            "Multithreaded Web Server",
+            "Compiler Front-End",
+            "Memory Pool Allocator"
+        ],
+        "res": "https://roadmap.sh/cpp"
+    }
+}

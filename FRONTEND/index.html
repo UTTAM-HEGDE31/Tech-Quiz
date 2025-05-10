@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Skills Assessment</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+     <!-- Navigation -->
+     <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" style="color: white;">TechQuiz</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#how-it-works">How It Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#start-quiz">Start Quiz</a>
+                    </li>
+                </ul>
+                <div class="ms-3" id="auth-buttons">
+                    <a href="login.html"><button class="btn btn-outline-primary rounded-pill px-4">Log in / Sign up</button></a>
+                </div>
+                <div class="ms-3 d-none" id="user-profile">
+                    <div class="dropdown">
+                        <button class="btn btn-outline-primary rounded-pill px-4 dropdown-toggle" type="button" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-user-circle me-2"></i>
+                            <span id="user-name">User Name</span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                            <li><a class="dropdown-item" href="#"><i class="fas fa-user me-2"></i>Profile</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fas fa-cog me-2"></i>Settings</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#" id="logout-btn"><i class="fas fa-sign-out-alt me-2"></i>Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1>Assess Your Tech Skills & Build Your Career Path</h1>
+                    <p class="my-4">Take our adaptive quiz to evaluate your coding knowledge and get a personalized learning roadmap.</p>
+                    <a href="#start-quiz" class="btn btn-primary rounded-pill px-4 py-2 me-3">Start Assessment</a>
+                    <a href="#how-it-works" class="btn btn-outline-primary rounded-pill px-4 py-2">Learn More</a>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <img src="boi.png" alt="Quiz illustration" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5" id="features">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold mb-3">Why Choose Our Assessment</h2>
+                <p  style="color: white;">Discover what makes our skill assessment platform stand out</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4>Adaptive Difficulty</h4>
+                        <p style="color: white;">Our questions adjust in difficulty based on your performance, providing an accurate assessment of your skills.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-route"></i>
+                        </div>
+                        <h4>Personalized Roadmap</h4>
+                        <p >Get a customized learning path based on your results to improve your weaknesses and enhance your strengths.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4>Progress Tracking</h4>
+                        <p >Monitor your improvement over time with detailed analytics and skill proficiency metrics.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section  id="how-it-works">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold mb-3">How It Works</h2>
+                <p>Our three-round assessment process adapts to your skill level</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <div class="bg-white rounded-circle shadow d-flex align-items-center justify-content-center mx-auto mb-4" style="width: 100px; height: 100px;">
+                                    <span class="fs-1 fw-bold text-primary">1</span>
+                                </div>
+                                <h4>Round One: Basics</h4>
+                                <p>Start with fundamental questions to establish your baseline knowledge in various tech domains.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <div class="bg-white rounded-circle shadow d-flex align-items-center justify-content-center mx-auto mb-4" style="width: 100px; height: 100px;">
+                                    <span class="fs-1 fw-bold text-primary">2</span>
+                                </div>
+                                <h4>Round Two: Targeted</h4>
+                                <p>Based on your first round performance, questions become more focused on specific areas.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <div class="bg-white rounded-circle shadow d-flex align-items-center justify-content-center mx-auto mb-4" style="width: 100px; height: 100px;">
+                                    <span class="fs-1 fw-bold text-primary">3</span>
+                                </div>
+                                <h4>Round Three: Advanced</h4>
+                                <p>Final round with advanced concepts to precisely determine your skill level and gaps.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section class="py-5" id="start-quiz">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold mb-3">Start Your Assessment</h2>
+               
+            </div>
+
+            <!-- Quiz Selection -->
+            <div class="row g-4" id="quiz-selection">
+                <div class="col-md-4">
+                    <div class="feature-card text-center">
+                        <div class="feature-icon mx-auto">
+                            <i class="fa-solid fa-c"></i>
+                        </div>
+                        <h4>C</h4>
+                        
+                        <button class="btn btn-primary rounded-pill px-4 mt-3" onclick="startQuiz('c')">Start Quiz</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card text-center">
+                        <div class="feature-icon mx-auto">
+                            <i></i> C++
+                        </div>
+                        <h4>C++</h4>
+                    
+                        <button class="btn btn-primary rounded-pill px-4 mt-3" onclick="startQuiz('cpp')">Start Quiz</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card text-center">
+                        <div class="feature-icon mx-auto">
+                            <i class="fa-brands fa-java"></i>
+                        </div>
+                        <h4>java</h4>
+                        
+                        <button class="btn btn-primary rounded-pill px-4 mt-3" onclick="startQuiz('java')">Start Quiz</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card text-center">
+                        <div class="feature-icon mx-auto">
+                            <i class="fa-brands fa-python"></i>
+                        </div>
+                        <h4>Python</h4>
+                       
+                        <button class="btn btn-primary rounded-pill px-4 mt-3" onclick="startQuiz('python')">Start Quiz</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="feature-card text-center">
+                        <div class="feature-icon mx-auto">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h4>Web Development</h4>
+                       
+                        <button class="btn btn-primary rounded-pill px-4 mt-3" onclick="startQuiz('webs')">Start Quiz</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card text-center">
+                        <div class="feature-icon mx-auto">
+                            <i class="fa-solid fa-snowflake"></i>
+                        </div>
+                        <h4>Data Structures</h4>
+                       
+                        <button class="btn btn-primary rounded-pill px-4 mt-3" onclick="startQuiz('data')">Start Quiz</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card text-center">
+                        <div class="feature-icon mx-auto">
+                            <i class="fa-solid fa-code-branch"></i>
+                        </div>
+                        <h4>Algorithms</h4>
+                        
+                        <button class="btn btn-primary rounded-pill px-4 mt-3" onclick="startQuiz('algo')">Start Quiz</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card text-center">
+                        <div class="feature-icon mx-auto">
+                            <i class="fa-solid fa-user-lock"></i>
+                        </div>
+                        <h4>Cyber Security</h4>
+                       
+                        <button class="btn btn-primary rounded-pill px-4 mt-3" onclick="startQuiz('cyber')">Start Quiz</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quiz Container (Hidden by default) -->
+            <div class="quiz-container mt-5" id="quiz-container" style="display: none;">
+                <div class="question-header">
+                    <div>
+                        <span class="badge bg-primary mb-2">Round <span id="current-round">1</span></span>
+                        <h4 id="question-text">What is the correct way to declare a variable in JavaScript?</h4>
+                    </div>
+                    <div class="timer">
+                        <i class="fas fa-clock me-2"></i><span id="timer-display">00:45</span>
+                    </div>
+                </div>
+                
+                <div class="question-progress mb-4">
+                    <div class="question-dot active"></div>
+                    <div class="question-dot"></div>
+                    <div class="question-dot"></div>
+                    <div class="question-dot"></div>
+                    <div class="question-dot"></div>
+                </div>
+                
+                <div id="options-container">
+                    <div class="option-card" onclick="selectOption(0)">
+                        <span class="option-text">var myVar = 5;</span>
+                    </div>
+                    <div class="option-card" onclick="selectOption(1)">
+                        <span class="option-text">int myVar = 5;</span>
+                    </div>
+                    <div class="option-card" onclick="selectOption(2)">
+                        <span class="option-text">variable myVar = 5;</span>
+                    </div>
+                    <div class="option-card" onclick="selectOption(3)">
+                        <span class="option-text">let myVar = 5;</span>
+                    </div>
+                </div>
+                
+                <div id="feedback-container" style="display: none;"></div>
+                
+                <div class="d-flex justify-content-between mt-4">
+                    <button class="btn btn-outline-primary rounded-pill px-4 py-2" id="prev-btn" disabled>Previous</button>
+                    <button class="btn btn-primary rounded-pill px-4 py-2" id="next-btn" onclick="nextQuestion()">Next Question</button>
+                </div>
+            </div>
+
+            <!-- Results Container (Hidden by default) -->
+            <div class="roadmap-section mt-5" id="results-container" style="display: none;">
+                <div class="quiz-result">
+                    <div class="result-circle">
+                        <div class="result-score">85%</div>
+                    </div>
+                    <h3 class="mb-4">Your Assessment Results</h3>
+                    <p class="text-muted mb-5">Based on your responses, we've created a detailed skill profile and personalized learning roadmap.</p>
+                </div>
+
+                <h4 class="mb-4">Your Skills Proficiency</h4>
+                <div class="mb-5">
+                    <div class="d-flex justify-content-between mb-2">
+                        <div>JavaScript</div>
+                        <div>85%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+
+                    <div class="d-flex justify-content-between mb-2">
+                        <div>HTML & CSS</div>
+                        <div>92%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 92%"></div>
+                    </div>
+
+                    <div class="d-flex justify-content-between mb-2">
+                        <div>React</div>
+                        <div>68%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 68%"></div>
+                    </div>
+
+                    <div class="d-flex justify-content-between mb-2">
+                        <div>Node.js</div>
+                        <div>45%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 45%"></div>
+                    </div>
+                </div>
+
+                <h4 class="mb-4">Your Learning Roadmap</h4>
+                <div class="roadmap-step">
+                    <div class="roadmap-number">1</div>
+                    <div>
+                        <h5>Advanced JavaScript Concepts</h5>
+                        <p class="text-muted">Focus on mastering closures, promises, and async/await patterns.</p>
+                        <div class="d-flex gap-2 mt-3">
+                            <span class="badge difficulty-medium">4 weeks</span>
+                            <span class="badge difficulty-medium">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="roadmap-step">
+                    <div class="roadmap-number">2</div>
+                    <div>
+                        <h5>React State Management</h5>
+                        <p class="text-muted">Learn advanced React patterns with Redux and Context API.</p>
+                        <div class="d-flex gap-2 mt-3">
+                            <span class="badge difficulty-medium">3 weeks</span>
+                            <span class="badge difficulty-medium">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="roadmap-step">
+                    <div class="roadmap-number">3</div>
+                    <div>
+                        <h5>Node.js and Express Backend Development</h5>
+                        <p class="text-muted">Build RESTful APIs and learn server-side programming.</p>
+                        <div class="d-flex gap-2 mt-3">
+                            <span class="badge difficulty-hard">6 weeks</span>
+                            <span class="badge difficulty-hard">Advanced</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-5">
+                    <button class="btn btn-primary rounded-pill px-4 py-2 me-3">Download Full Roadmap</button>
+                    <button class="btn btn-outline-primary rounded-pill px-4 py-2" onclick="resetQuiz()">Take Another Quiz</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="mb-3">TechQuiz</h5>
+                    <p>Assess your tech skills and get a personalized learning roadmap.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a href="#" class="text-muted text-decoration-none">Terms</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-muted text-decoration-none">Privacy</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-muted text-decoration-none">Contact</a></li>
+                    </ul>
+                    <p class=" mt-2">© 2025 TechQuiz. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="auth.js"></script>
+</body>
+</html>

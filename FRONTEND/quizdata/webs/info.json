@@ -1,0 +1,205 @@
+{
+        "Beginner": [
+          {
+            "question": "Which HTML tag is used to display a heading?",
+            "options": ["p", "head", "h1", "div"],
+            "answer": "h1"
+          },
+          {
+            "question": "What does CSS stand for?",
+            "options": [
+              "Cascading Style Sheets",
+              "Creative Style System",
+              "Color Styling System",
+              "Coding Style Sheet"
+            ],
+            "answer": "Cascading Style Sheets"
+          },
+          {
+            "question": "Which attribute is used to provide a link in HTML?",
+            "options": ["href", "src", "link", "ref"],
+            "answer": "href"
+          },
+          {
+            "question": "Which tag is used to insert a JavaScript file?",
+            "options": ["link", "style", "script", "js"],
+            "answer": "script"
+          },
+          {
+            "question": "How do you select an element with class 'btn' in CSS?",
+            "options": [".btn", "#btn", "btn", "*btn"],
+            "answer": ".btn"
+          },
+          {
+            "question": "Which of these is a correct CSS syntax?",
+            "options": ["body:color=black;", "body { color: black; }", "{body: color=black;}", "body=color:black;"],
+            "answer": "body { color: black; }"
+          },
+          {
+            "question": "Which HTML tag is used to create an unordered list?",
+            "options": ["ul", "ol", "li", "list"],
+            "answer": "ul"
+          },
+          {
+            "question": "What does DOM stand for?",
+            "options": ["Document Object Model", "Data Object Method", "Digital Output Mode", "Document Order Model"],
+            "answer": "Document Object Model"
+          },
+          {
+            "question": "which is not type of input element?",
+            "options": ["ratio","text","range","href"],
+            "answer": "href"
+          },
+          {
+            "question": "Which CSS property changes the background color?",
+            "options": ["color", "bgcolor", "background-color", "text-color"],
+            "answer": "background-color"
+          }
+        ],
+      
+        "Intermediate": [
+          {
+            "question": "Which JavaScript method is used to select an element by ID?",
+            "options": [
+              "getElementByClassName()",
+              "querySelectorAll()",
+              "getElementById()",
+              "getElements()"
+            ],
+            "answer": "getElementById()"
+          },
+          {
+            "question": "Which HTTP status code means 'Not Found'?",
+            "options": ["200", "301", "404", "500"],
+            "answer": "404"
+          },
+          {
+            "question": "Which tag is used to make a form in HTML?",
+            "options": ["form", "input", "submit", "fieldset"],
+            "answer": "form"
+          },
+          {
+            "question": "How do you declare a JavaScript variable?",
+            "options": ["v x = 10;", "variable x = 10;", "let x = 10;", "dim x = 10;"],
+            "answer": "let x = 10;"
+          },
+          {
+            "question": "Which CSS unit is relative to the root element font size?",
+            "options": ["px", "em", "%", "rem"],
+            "answer": "rem"
+          },
+          {
+            "question": "How can you send a GET request using JavaScript fetch API?",
+            "options": [
+              "fetch('url', { method: 'POST' })",
+              "fetch('url', { method: 'GET' })",
+              "fetch.get('url')",
+              "get.fetch('url')"
+            ],
+            "answer": "fetch('url', { method: 'GET' })"
+          },
+          {
+            "question": "What is the default display property of a <div> element?",
+            "options": ["inline", "block", "inline-block", "flex"],
+            "answer": "block"
+          },
+          {
+            "question": "Which event is triggered when a form is submitted?",
+            "options": ["onchange", "onclick", "onsubmit", "oninput"],
+            "answer": "onsubmit"
+          },
+          {
+            "question": "Which of the following is a JavaScript framework?",
+            "options": ["Django", "React", "Laravel", "Rails"],
+            "answer": "React"
+          },
+          {
+            "question": "Which attribute is used to make a field required in an HTML form?",
+            "options": ["validate", "must", "required", "need"],
+            "answer": "required"
+          }
+        ],
+      
+        "Advanced": [
+          {
+            "question": "Which HTTP header is used to prevent cross-site scripting (XSS)?",
+            "options": ["X-Frame-Options", "Content-Security-Policy", "Set-Cookie", "Cache-Control"],
+            "answer": "Content-Security-Policy"
+          },
+          {
+            "question": "What is the purpose of the 'defer' attribute in a <script> tag?",
+            "options": [
+              "It defers execution until the script is visible",
+              "It loads the script in the background and executes after the document is parsed",
+              "It prevents script execution",
+              "It prioritizes loading"
+            ],
+            "answer": "It loads the script in the background and executes after the document is parsed"
+          },
+          {
+            "question": "What does CORS stand for?",
+            "options": [
+              "Cross-Origin Resource Sharing",
+              "Cross-Origin Resource Sync",
+              "Client-Origin Request Security",
+              "Content-Origin Resource Sharing"
+            ],
+            "answer": "Cross-Origin Resource Sharing"
+          },
+          {
+            "question": "What is the main use of Web Workers in JavaScript?",
+            "options": [
+              "Manipulate the DOM",
+              "Add animations",
+              "Run background scripts without blocking the main thread",
+              "Handle events"
+            ],
+            "answer": "Run background scripts without blocking the main thread"
+          },
+          {
+            "question": "What is the purpose of lazy loading images?",
+            "options": [
+              "To blur the images",
+              "To load all images at once",
+              "To load images only when they are visible in the viewport",
+              "To increase image resolution"
+            ],
+            "answer": "To load images only when they are visible in the viewport"
+          },
+          {
+            "question": "Which protocol is preferred for secure communication in modern web apps?",
+            "options": ["FTP", "HTTP", "SMTP", "HTTPS"],
+            "answer": "HTTPS"
+          },
+          {
+            "question": "What does the 'this' keyword refer to in a JavaScript object method?",
+            "options": [
+              "The global object",
+              "The object itself",
+              "The window object",
+              "The parent class"
+            ],
+            "answer": "The object itself"
+          },
+          {
+            "question": "Which lifecycle method is called after a component is rendered in React?",
+            "options": ["componentDidMount", "constructor", "render", "useEffect"],
+            "answer": "componentDidMount"
+          },
+          {
+            "question": "What is the Shadow DOM?",
+            "options": [
+              "A CSS property",
+              "A way to hide HTML elements",
+              "A DOM subtree that is isolated from the main DOM",
+              "A browser setting"
+            ],
+            "answer": "A DOM subtree that is isolated from the main DOM"
+          },
+          {
+            "question": "Which method is used to prevent the default behavior of an event in JavaScript?",
+            "options": ["stop()", "stopEvent()", "preventDefault()", "cancel()"],
+            "answer": "preventDefault()"
+          }
+        ]
+      }

@@ -1,0 +1,52 @@
+{
+    "Beginner": {
+        "Overview": "Start with HTML, CSS, and basic JavaScript.",
+        "Topics": [
+            "HTML Elements and Structure",
+            "CSS Styling and Layouts",
+            "JavaScript Basics",
+            "Forms and Validation",
+            "Responsive Design"
+        ],
+        "Projects": [
+            "Portfolio Website",
+            "Simple Landing Page",
+            "Contact Form with Validation"
+        ],
+        "res": "https://roadmap.sh/full-stack"
+    },
+    "Intermediate": {
+        "Overview": "Add interactivity and work with frontend frameworks and APIs.",
+        "Topics": [
+            "DOM Manipulation",
+            "ES6+ Features",
+            "Fetch API and AJAX",
+            "Frontend Frameworks (React, Vue)",
+            "Version Control with Git",
+            "Deployment Basics"
+        ],
+        "Projects": [
+            "Weather App using API",
+            "Blog Platform with React",
+            "GitHub Profile Fetcher"
+        ],
+        "res": "https://roadmap.sh/full-stack"
+    },
+    "Advanced": {
+        "Overview": "Master backend, full stack development, and performance optimization.",
+        "Topics": [
+            "Backend Development (Node.js, Express)",
+            "Databases (MongoDB, PostgreSQL)",
+            "Authentication and Security",
+            "DevOps Basics (CI/CD)",
+            "SSR, SSG (Next.js)",
+            "Performance and SEO Optimization"
+        ],
+        "Projects": [
+            "Full Stack E-commerce App",
+            "Authentication System",
+            "Personal Blog with CMS"
+        ],
+        "res": "https://roadmap.sh/full-stack"
+    }
+}

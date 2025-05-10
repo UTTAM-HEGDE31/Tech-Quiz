@@ -1,0 +1,57 @@
+{
+    "Beginner": {
+        "Overview": "Learn the basics of Python programming.",
+        "Topics": [
+            "Introduction to Python & Installation",
+            "Variables, Data Types, and Operators",
+            "Control Flow (if, else, elif)",
+            "Loops (for, while)",
+            "Functions and Modules",
+            "Basic Data Structures (List, Tuple, Set, Dictionary)",
+            "File I/O",
+            "Error Handling (try/except)"
+        ],
+        "Projects": [
+            "Calculator",
+            "Simple Quiz App",
+            "Basic File Reader"
+        ],
+        "res": "https://roadmap.sh/python"
+    },
+    "Intermediate": {
+        "Overview": "Build on foundational knowledge with object-oriented programming and libraries.",
+        "Topics": [
+            "Object-Oriented Programming",
+            "Regular Expressions",
+            "Working with APIs",
+            "Virtual Environments and pip",
+            "Popular Libraries: requests, pandas, matplotlib",
+            "Intro to Testing",
+            "Basic Debugging"
+        ],
+        "Projects": [
+            "Weather App using API",
+            "Data Analysis with Pandas",
+            "To-do List with File Persistence"
+        ],
+        "res": "https://roadmap.sh/python"
+    },
+    "Advanced": {
+        "Overview": "Master advanced topics including multithreading and web development.",
+        "Topics": [
+            "Advanced OOP Concepts (inheritance, polymorphism)",
+            "Decorators and Generators",
+            "Multithreading and Multiprocessing",
+            "Web Development with Flask/Django",
+            "Database Integration (SQLite/PostgreSQL)",
+            "Unit Testing",
+            "Deploying Python Applications"
+        ],
+        "Projects": [
+            "Web App using Flask",
+            "REST API Project",
+            "Machine Learning Model Integration"
+        ],
+        "res": "https://roadmap.sh/python"
+    }
+}

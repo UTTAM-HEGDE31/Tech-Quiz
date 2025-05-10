@@ -1,0 +1,243 @@
+{
+  "Beginner": [
+    {
+      "question": "Which of the following is the correct way to declare a class in Java?",
+      "options": [
+        "class MyClass() {}",
+        "class MyClass {}",
+        "public MyClass class {}",
+        "class MyClass extends {}"
+      ],
+      "answer": "class MyClass {}"
+    },
+    {
+      "question": "What is the correct syntax for creating an object of a class `Car` in Java?",
+      "options": [
+        "Car obj = new Car();",
+        "Car obj();",
+        "Car newObj = new Car;",
+        "Car obj = Car();"
+      ],
+      "answer": "Car obj = new Car();"
+    },
+    {
+      "question": "Which of the following is used to define a constructor in Java?",
+      "options": [
+        "void constructor() {}",
+        "int constructor() {}",
+        "MyClass() {}",
+        "MyClass::MyClass() {}"
+      ],
+      "answer": "MyClass() {}"
+    },
+    {
+      "question": "Which of the following statements is true about the `main` method in Java?",
+      "options": [
+        "It must always be declared public static void main(String[] args)",
+        "It must be declared public static void main(int[] args)",
+        "It can be declared private static void main(String[] args)",
+        "It can be declared static void main(String[] args)"
+      ],
+      "answer": "It must always be declared public static void main(String[] args)"
+    },
+    {
+      "question": "Which keyword is used to create an object in Java?",
+      "options": [
+        "this",
+        "new",
+        "super",
+        "object"
+      ],
+      "answer": "new"
+    },
+    {
+      "question": "What is the default value of an instance variable of type `boolean` in Java?",
+      "options": ["true", "false", "null", "undefined"],
+      "answer": "false"
+    },
+    {
+      "question": "Which of the following is used to handle exceptions in Java?",
+      "options": [
+        "try {} catch {}",
+        "try {} except {}",
+        "catch {} finally {}",
+        "catch {} throw {}"
+      ],
+      "answer": "try {} catch {}"
+    },
+    {
+      "question": "Which of the following is used to import packages in Java?",
+      "options": [
+        "import java.util.*;",
+        "import * from java.util;",
+        "using java.util;",
+        "include java.util;"
+      ],
+      "answer": "import java.util.*;"
+    },
+    {
+      "question": "Which of the following is the correct way to declare a constant in Java?",
+      "options": [
+        "final int x = 5;",
+        "int const x = 5;",
+        "constant int x = 5;",
+        "const final int x = 5;"
+      ],
+      "answer": "final int x = 5;"
+    },
+    {
+      "question": "Which of the following is used to convert a string to an integer in Java?",
+      "options": [
+        "Integer.parseInt()",
+        "String.toInt()",
+        "Integer.convertToInt()",
+        "convertInt()"
+      ],
+      "answer": "Integer.parseInt()"
+    }
+  ],
+  "Intermediate": [
+    {
+      "question": "What is the output of the following code?\n\n```java\nint x = 5;\nint y = 10;\nSystem.out.println(x + y);\n```",
+      "options": ["15", "510", "5 + 10", "Error"],
+      "answer": "15"
+    },
+    {
+      "question": "Which of the following statements is true about the `String` class in Java?",
+      "options": [
+        "Strings are mutable in Java.",
+        "String class is a final class in Java.",
+        "String objects are not created on the heap.",
+        "String objects are not pooled in Java."
+      ],
+      "answer": "String class is a final class in Java."
+    },
+    {
+      "question": "What is the purpose of the `super` keyword in Java?",
+      "options": [
+        "It is used to call the constructor of the parent class.",
+        "It refers to the current class instance.",
+        "It is used to call a method from the current class.",
+        "It is used to call a static method."
+      ],
+      "answer": "It is used to call the constructor of the parent class."
+    },
+    {
+      "question": "Which of the following methods is used to add an element to an ArrayList in Java?",
+      "options": [
+        "add()",
+        "push()",
+        "insert()",
+        "append()"
+      ],
+      "answer": "add()"
+    },
+    {
+      "question": "Which of the following statements about `ArrayList` in Java is true?",
+      "options": [
+        "It can store elements of any data type.",
+        "It has a fixed size.",
+        "It does not allow duplicate elements.",
+        "It can grow or shrink dynamically."
+      ],
+      "answer": "It can grow or shrink dynamically."
+    },
+    {
+      "question": "Which of the following is used to check if an object is an instance of a particular class in Java?",
+      "options": [
+        "instanceof",
+        "typeof",
+        "isinstance",
+        "isObject"
+      ],
+      "answer": "instanceof"
+    },
+    {
+      "question": "What is the output of the following code?\n\n```java\nint x = 7;\nSystem.out.println(x % 3);\n```",
+      "options": ["2", "1", "3", "7"],
+      "answer": "1"
+    },
+    {
+      "question": "Which of the following is the correct way to define a method that accepts variable arguments in Java?",
+      "options": [
+        "public void method(int... values) {}",
+        "public void method(int[] values) {}",
+        "public void method(int... values) throws Exception {}",
+        "public void method(int values...) {}"
+      ],
+      "answer": "public void method(int... values) {}"
+    }
+  ],
+  "Advanced": [
+    {
+      "question": "What is the result of the following code?\n\n```java\nclass Base {\n  public void show() { System.out.println(\"Base\"); }\n}\nclass Derived extends Base {\n  public void show() { System.out.println(\"Derived\"); }\n}\nBase obj = new Derived();\nobj.show();\n```",
+      "options": ["Base", "Derived", "Error", "Undefined behavior"],
+      "answer": "Derived"
+    },
+    {
+      "question": "Which of the following is used to create a thread in Java?",
+      "options": [
+        "Thread thread = new Thread();",
+        "Thread thread = new Thread() { }",
+        "Runnable thread = new Runnable();",
+        "Thread thread = new Runnable();"
+      ],
+      "answer": "Thread thread = new Thread();"
+    },
+    {
+      "question": "Which of the following statements is true about Java memory management?",
+      "options": [
+        "Java does not have garbage collection.",
+        "The JVM automatically handles memory allocation and deallocation.",
+        "Memory is managed manually by the programmer.",
+        "Memory is allocated only on the heap."
+      ],
+      "answer": "The JVM automatically handles memory allocation and deallocation."
+    },
+    {
+      "question": "Which of the following is the correct way to create a singleton class in Java?",
+      "options": [
+        "public class Singleton { private static Singleton instance = new Singleton(); }",
+        "public class Singleton { private Singleton instance = new Singleton(); }",
+        "public class Singleton { private static final Singleton instance = Singleton(); }",
+        "public class Singleton { public static Singleton instance = null; }"
+      ],
+      "answer": "public class Singleton { private static Singleton instance = new Singleton(); }"
+    },
+    {
+      "question": "What is the purpose of the `volatile` keyword in Java?",
+      "options": [
+        "It makes a variable accessible by multiple threads without synchronization.",
+        "It ensures that a variable's value is updated across all threads.",
+        "It defines a method that can be called by multiple threads.",
+        "It synchronizes a method automatically."
+      ],
+      "answer": "It ensures that a variable's value is updated across all threads."
+    },
+    {
+      "question": "What will be the output of the following code?\n\n```java\nint x = 5;\nint y = 3;\nSystem.out.println(x / y);\n```",
+      "options": ["1", "1.666", "0", "Error"],
+      "answer": "1"
+    },
+    {
+      "question": "What is the correct way to create an enum in Java?",
+      "options": [
+        "enum Days { MONDAY, TUESDAY, WEDNESDAY }",
+        "enum Days { Monday, Tuesday, Wednesday }",
+        "enum Days { 'MONDAY', 'TUESDAY', 'WEDNESDAY' }",
+        "enum Days { MONDAY: '1', TUESDAY: '2', WEDNESDAY: '3' }"
+      ],
+      "answer": "enum Days { MONDAY, TUESDAY, WEDNESDAY }"
+    },
+    {
+      "question": "What is the purpose of the `synchronized` keyword in Java?",
+      "options": [
+        "To prevent multiple threads from accessing the same method or block of code simultaneously.",
+        "To allow multiple threads to access the same method or block of code.",
+        "To automatically manage memory for threads.",
+        "To stop a thread from executing."
+      ],
+      "answer": "To prevent multiple threads from accessing the same method or block of code simultaneously."
+    }
+  ]
+}

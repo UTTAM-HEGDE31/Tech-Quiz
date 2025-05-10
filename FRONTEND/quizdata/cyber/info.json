@@ -1,0 +1,267 @@
+{
+    
+        "Beginner": [
+          {
+            "question": "What does the term 'phishing' refer to?",
+            "options": [
+              "A type of password",
+              "A method to securely encrypt data",
+              "A cyberattack where users are tricked into giving sensitive info",
+              "A firewall protocol"
+            ],
+            "answer": "A cyberattack where users are tricked into giving sensitive info"
+          },
+          {
+            "question": "What is a strong password?",
+            "options": [
+              "12345678",
+              "Your name and birthdate",
+              "A mix of upper/lowercase, numbers, and symbols",
+              "Only lowercase letters"
+            ],
+            "answer": "A mix of upper/lowercase, numbers, and symbols"
+          },
+          {
+            "question": "What does a firewall do?",
+            "options": [
+              "Cleans your computer",
+              "Blocks unauthorized access to or from a private network",
+              "Increases internet speed",
+              "Deletes old files"
+            ],
+            "answer": "Blocks unauthorized access to or from a private network"
+          },
+          {
+            "question": "Which of the following is considered personally identifiable information (PII)?",
+            "options": [
+              "Your favorite color",
+              "Your pet's name",
+              "Your email and SSN",
+              "Your laptop model"
+            ],
+            "answer": "Your email and SSN"
+          },
+          {
+            "question": "What is antivirus software used for?",
+            "options": [
+              "Speeding up your computer",
+              "Blocking advertisements",
+              "Detecting and removing malicious software",
+              "Encrypting your files"
+            ],
+            "answer": "Detecting and removing malicious software"
+          },
+          {
+            "question": "What is two-factor authentication (2FA)?",
+            "options": [
+              "A type of malware",
+              "Using two passwords for login",
+              "An additional layer of security requiring two forms of identity",
+              "A tool to hack into accounts"
+            ],
+            "answer": "An additional layer of security requiring two forms of identity"
+          },
+          {
+            "question": "Which of the following is a social engineering attack?",
+            "options": ["DDoS", "SQL Injection", "Phishing", "Brute force attack"],
+            "answer": "Phishing"
+          },
+          {
+            "question": "What is the main purpose of encryption?",
+            "options": [
+              "To reduce file size",
+              "To hide data from unauthorized users",
+              "To clean the disk",
+              "To increase system performance"
+            ],
+            "answer": "To hide data from unauthorized users"
+          },
+          {
+            "question": "Which protocol is secure: HTTP or HTTPS?",
+            "options": ["HTTP", "HTTPS", "Both", "None"],
+            "answer": "HTTPS"
+          },
+          {
+            "question": "What does malware stand for?",
+            "options": [
+              "Machine-aware software",
+              "Malicious software",
+              "Manual alert ware",
+              "Malfunctioning software"
+            ],
+            "answer": "Malicious software"
+          }
+        ],
+      
+        "Intermediate": [
+          {
+            "question": "What does SSL stand for in cybersecurity?",
+            "options": [
+              "Secure Sockets Layer",
+              "System Software Layer",
+              "Safe Server Login",
+              "Secure Service Lock"
+            ],
+            "answer": "Secure Sockets Layer"
+          },
+          {
+            "question": "What is the role of a penetration tester?",
+            "options": [
+              "Design websites",
+              "Develop software",
+              "Test system vulnerabilities like a hacker would",
+              "Fix bugs in applications"
+            ],
+            "answer": "Test system vulnerabilities like a hacker would"
+          },
+          {
+            "question": "Which one is a type of brute-force attack?",
+            "options": ["Phishing", "Rainbow table", "Spoofing", "DoS"],
+            "answer": "Rainbow table"
+          },
+          {
+            "question": "What does VPN stand for?",
+            "options": [
+              "Virtual Personal Network",
+              "Very Private Network",
+              "Virtual Private Network",
+              "Verified Protocol Network"
+            ],
+            "answer": "Virtual Private Network"
+          },
+          {
+            "question": "What is an SQL injection?",
+            "options": [
+              "A database update method",
+              "A malicious SQL statement inserted into an entry field",
+              "A backup system",
+              "A data encryption technique"
+            ],
+            "answer": "A malicious SQL statement inserted into an entry field"
+          },
+          {
+            "question": "Which OWASP risk involves attackers stealing user session data?",
+            "options": [
+              "Broken Authentication",
+              "Sensitive Data Exposure",
+              "Cross-Site Scripting (XSS)",
+              "Session Hijacking"
+            ],
+            "answer": "Session Hijacking"
+          },
+          {
+            "question": "What is the purpose of hashing?",
+            "options": [
+              "To encrypt files",
+              "To make backup copies",
+              "To verify data integrity",
+              "To delete data securely"
+            ],
+            "answer": "To verify data integrity"
+          },
+          {
+            "question": "Which of these is a type of cyber attack?",
+            "options": ["DNS Spoofing", "URL Shortening", "Database Querying", "Code Optimization"],
+            "answer": "DNS Spoofing"
+          },
+          {
+            "question": "What is a botnet?",
+            "options": [
+              "A robotic firewall",
+              "A collection of infected devices under attacker control",
+              "A backup software",
+              "A type of secure network"
+            ],
+            "answer": "A collection of infected devices under attacker control"
+          },
+          {
+            "question": "Which header is used to protect against clickjacking?",
+            "options": ["X-XSS-Protection", "X-Frame-Options", "Content-Type", "Strict-Transport-Security"],
+            "answer": "X-Frame-Options"
+          }
+        ],
+      
+        "Advanced": [
+          {
+            "question": "What is the main goal of a buffer overflow attack?",
+            "options": [
+              "To speed up data transfer",
+              "To access unauthorized memory areas",
+              "To redirect traffic",
+              "To clear storage space"
+            ],
+            "answer": "To access unauthorized memory areas"
+          },
+          {
+            "question": "Which tool is commonly used for network packet analysis?",
+            "options": ["Metasploit", "Nmap", "Wireshark", "Burp Suite"],
+            "answer": "Wireshark"
+          },
+          {
+            "question": "Which port is commonly targeted in SSH brute-force attacks?",
+            "options": ["21", "22", "23", "80"],
+            "answer": "22"
+          },
+          {
+            "question": "What is lateral movement in cybersecurity?",
+            "options": [
+              "Moving from physical to virtual environments",
+              "Gaining access to other systems after initial breach",
+              "Moving files across a network",
+              "Switching between protocols"
+            ],
+            "answer": "Gaining access to other systems after initial breach"
+          },
+          {
+            "question": "Which of the following is a type of zero-day vulnerability?",
+            "options": [
+              "A vulnerability known for years",
+              "A patched issue",
+              "A vulnerability exploited before it's publicly known",
+              "A misconfigured server"
+            ],
+            "answer": "A vulnerability exploited before it's publicly known"
+          },
+          {
+            "question": "What technique is used to encrypt web traffic in HTTPS?",
+            "options": ["AES only", "RSA only", "Public Key Infrastructure", "TLS/SSL"],
+            "answer": "TLS/SSL"
+          },
+          {
+            "question": "What is the difference between encoding and encryption?",
+            "options": [
+              "Encryption hides data, encoding makes it readable for systems",
+              "They are the same",
+              "Encryption increases speed",
+              "Encoding improves compression"
+            ],
+            "answer": "Encryption hides data, encoding makes it readable for systems"
+          },
+          {
+            "question": "Which framework is used for automated web app vulnerability scanning?",
+            "options": ["Wireshark", "Nikto", "Shodan", "Kali Linux"],
+            "answer": "Nikto"
+          },
+          {
+            "question": "What does CVE stand for in cybersecurity?",
+            "options": [
+              "Cybersecurity Vulnerability Evaluation",
+              "Common Vulnerabilities and Exposures",
+              "Certified Vulnerability Expert",
+              "Code Verification Entity"
+            ],
+            "answer": "Common Vulnerabilities and Exposures"
+          },
+          {
+            "question": "What is the primary use of 'iptables' in Linux systems?",
+            "options": [
+              "Managing users",
+              "Monitoring logs",
+              "Firewall configuration and packet filtering",
+              "Launching applications"
+            ],
+            "answer": "Firewall configuration and packet filtering"
+          }
+        ]
+      
+}

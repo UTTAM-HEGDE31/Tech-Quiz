@@ -1,0 +1,55 @@
+{
+    "Beginner": {
+        "Overview": "Understand basic concepts of cybersecurity and types of threats.",
+        "Topics": [
+            "Introduction to Cybersecurity",
+            "Types of Cyber Threats",
+            "Basic Networking Concepts",
+            "Linux Basics and Commands",
+            "Introduction to Cryptography",
+            "Web Security Basics",
+            "Firewalls and Antivirus"
+        ],
+        "Projects": [
+            "Setup a secure Linux system",
+            "Basic port scanning with Nmap",
+            "Password strength checker"
+        ],
+        "res":"https://roadmap.sh/cyber-security"
+    },
+    "Intermediate": {
+        "Overview": "Dive deeper into networks, encryption, and vulnerability assessment.",
+        "Topics": [
+            "Advanced Networking (TCP/IP, Subnetting)",
+            "Public Key Infrastructure (PKI)",
+            "Common Security Tools (Wireshark, Burp Suite)",
+            "Penetration Testing Basics",
+            "Vulnerability Scanning",
+            "Secure Coding Practices"
+        ],
+        "Projects": [
+            "Analyze packets using Wireshark",
+            "Vulnerability scan using OpenVAS",
+            "Simulated phishing attack lab"
+        ],
+        "res":"https://roadmap.sh/cyber-security"
+    },
+    "Advanced": {
+        "Overview": "Specialize in ethical hacking, forensics, and incident response.",
+        "Topics": [
+            "Ethical Hacking and Red Teaming",
+            "Digital Forensics",
+            "Incident Response and Handling",
+            "Reverse Engineering",
+            "Security Operations Center (SOC) Skills",
+            "Cloud Security",
+            "Cyber Laws and Compliance"
+        ],
+        "Projects": [
+            "Capture the Flag (CTF) challenge",
+            "Reverse engineering malware",
+            "Cloud environment security hardening"
+        ],
+        "res":"https://roadmap.sh/cyber-security"
+    }
+}

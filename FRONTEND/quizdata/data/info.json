@@ -1,0 +1,203 @@
+
+    
+    
+    {
+        "Beginner": [
+          {
+            "question": "Which data structure uses First-In-First-Out (FIFO) principle?",
+            "options": ["Stack", "Queue", "Array", "Tree"],
+            "answer": "Queue"
+          },
+          {
+            "question": "Which of the following is a linear data structure?",
+            "options": ["Graph", "Binary Tree", "Array", "Hash Table"],
+            "answer": "Array"
+          },
+          {
+            "question": "What is the maximum number of children a binary tree node can have?",
+            "options": ["1", "2", "3", "Any number"],
+            "answer": "2"
+          },
+          {
+            "question": "Which data structure allows both LIFO and FIFO operations?",
+            "options": ["Stack", "Deque", "Queue", "Linked List"],
+            "answer": "Deque"
+          },
+          {
+            "question": "Which of the following is the most suitable for implementing recursion?",
+            "options": ["Queue", "Array", "Stack", "Graph"],
+            "answer": "Stack"
+          },
+          {
+            "question": "What is the index of the first element in an array in most programming languages?",
+            "options": ["0", "1", "-1", "Depends on language"],
+            "answer": "0"
+          },
+          {
+            "question": "A linked list consists of:",
+            "options": ["Data only", "Data and index", "Nodes containing data and a reference", "Only references"],
+            "answer": "Nodes containing data and a reference"
+          },
+          {
+            "question": "Which of the following can dynamically grow and shrink in size?",
+            "options": ["Array", "Static Array", "Linked List", "Queue"],
+            "answer": "Linked List"
+          },
+          {
+            "question": "In a stack, the operation that removes the top element is called:",
+            "options": ["Push", "Pull", "Pop", "Peek"],
+            "answer": "Pop"
+          },
+          {
+            "question": "Which of the following data structures is used in implementing undo functionality?",
+            "options": ["Queue", "Tree", "Stack", "Graph"],
+            "answer": "Stack"
+          }
+        ],
+      
+        "Intermediate": [
+          {
+            "question": "Which of the following is a self-referential data structure?",
+            "options": ["Array", "Structure containing pointer to itself", "Class", "Set"],
+            "answer": "Structure containing pointer to itself"
+          },
+          {
+            "question": "How many pointers are required in a doubly linked list node?",
+            "options": ["1", "2", "3", "Depends on implementation"],
+            "answer": "2"
+          },
+          {
+            "question": "In a circular queue, how do you check if the queue is full?",
+            "options": [
+              "front == rear",
+              "rear + 1 == front",
+              "(rear + 1) % size == front",
+              "front == -1"
+            ],
+            "answer": "(rear + 1) % size == front"
+          },
+          {
+            "question": "Which of these data structures is non-linear?",
+            "options": ["Array", "Stack", "Binary Tree", "Linked List"],
+            "answer": "Binary Tree"
+          },
+          {
+            "question": "What is the minimum number of nodes in a full binary tree of height 3?",
+            "options": ["7", "8", "15", "3"],
+            "answer": "7"
+          },
+          {
+            "question": "What is a sentinel node in linked lists?",
+            "options": [
+              "A node containing max value",
+              "A node used as a placeholder at start/end",
+              "The middle node",
+              "Node containing null"
+            ],
+            "answer": "A node used as a placeholder at start/end"
+          },
+          {
+            "question": "Which data structure is best suited for managing a browser's history?",
+            "options": ["Queue", "Stack", "Deque", "Graph"],
+            "answer": "Stack"
+          },
+          {
+            "question": "What is the time complexity of accessing an element in a singly linked list?",
+            "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+            "answer": "O(n)"
+          },
+          {
+            "question": "Which of the following operations is not efficient in arrays?",
+            "options": [
+              "Random access",
+              "Traversal",
+              "Insertion at beginning",
+              "Updating an element"
+            ],
+            "answer": "Insertion at beginning"
+          },
+          {
+            "question": "Which of the following data structures is used to implement adjacency lists in graphs?",
+            "options": ["Arrays", "Stacks", "Queues", "Linked Lists"],
+            "answer": "Linked Lists"
+          }
+        ],
+      
+        "Advanced": [
+          {
+            "question": "Which of the following is true for a complete binary tree?",
+            "options": [
+              "All levels except possibly the last are completely filled",
+              "It is always balanced",
+              "Each node has two children",
+              "It is a full binary tree"
+            ],
+            "answer": "All levels except possibly the last are completely filled"
+          },
+          {
+            "question": "What is the worst-case time complexity to insert an element into a doubly linked list at a known position?",
+            "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+            "answer": "O(n)"
+          },
+          {
+            "question": "In a threaded binary tree, null pointers are replaced by:",
+            "options": [
+              "Pointers to next node in inorder traversal",
+              "Pointers to root",
+              "Pointers to parent",
+              "Pointers to sibling"
+            ],
+            "answer": "Pointers to next node in inorder traversal"
+          },
+          {
+            "question": "Which of the following data structures supports constant time insertion, deletion and access?",
+            "options": ["Linked List", "Array", "Hash Table", "Stack"],
+            "answer": "Hash Table"
+          },
+          {
+            "question": "Which of these statements about tries is false?",
+            "options": [
+              "Tries are used for prefix-based searching",
+              "Each node represents a character of a key",
+              "Tries are space-efficient compared to hash tables",
+              "Tries support ordered data"
+            ],
+            "answer": "Tries are space-efficient compared to hash tables"
+          },
+          {
+            "question": "Which data structure can be used to detect balanced parentheses in an expression?",
+            "options": ["Queue", "Deque", "Stack", "Tree"],
+            "answer": "Stack"
+          },
+          {
+            "question": "How many null pointers are there in a complete binary tree with 15 nodes?",
+            "options": ["7", "8", "15", "16"],
+            "answer": "8"
+          },
+          {
+            "question": "What is the advantage of circular linked list over singly linked list?",
+            "options": [
+              "Faster memory allocation",
+              "Traversal from any node",
+              "Faster access",
+              "All nodes can be accessed in constant time"
+            ],
+            "answer": "Traversal from any node"
+          },
+          {
+            "question": "Which pointer is NOT needed in a singly linked list node?",
+            "options": ["Next pointer", "Data field", "Previous pointer", "All are needed"],
+            "answer": "Previous pointer"
+          },
+          {
+            "question": "What happens if the front and rear pointers of a circular queue are equal?",
+            "options": [
+              "Queue is empty",
+              "Queue is full",
+              "Queue has only one element",
+              "Queue is invalid"
+            ],
+            "answer": "Queue is empty"
+          }
+        ]
+    }

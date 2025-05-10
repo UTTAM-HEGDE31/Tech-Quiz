@@ -1,0 +1,248 @@
+/* General Styles */
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #2d2d2d;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #00ff9d !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #00ff9d !important;
+}
+
+/* Roadmap Header */
+.roadmap-header {
+    background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%);
+    padding: 4rem 0;
+    margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.roadmap-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><rect width="1" height="1" fill="%2300ff9d" opacity="0.1"/></svg>');
+    opacity: 0.1;
+}
+
+.roadmap-header h1 {
+    color: #00ff9d;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Skill Level Section */
+.skill-level {
+    background-color: #2d2d2d;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.skill-progress-container {
+    background-color: #1a1a1a;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.skill-progress {
+    height: 100%;
+    background: linear-gradient(90deg, #00ff9d 0%, #00b8ff 100%);
+    border-radius: 10px;
+    transition: width 1s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 255, 157, 0.5);
+}
+
+/* Learning Path Section */
+.learning-path {
+    background-color: #2d2d2d;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.roadmap-steps {
+    margin-top: 2rem;
+}
+
+.roadmap-step {
+    display: flex;
+    margin-bottom: 2rem;
+    position: relative;
+    padding-left: 3rem;
+}
+
+.roadmap-step::before {
+    content: '';
+    position: absolute;
+    left: 1.5rem;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, #00ff9d, #00b8ff);
+}
+
+.step-number {
+    position: absolute;
+    left: 0;
+    width: 3rem;
+    height: 3rem;
+    background: linear-gradient(135deg, #00ff9d, #00b8ff);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #1a1a1a;
+    box-shadow: 0 0 15px rgba(0, 255, 157, 0.5);
+}
+
+.step-content {
+    background-color: #1a1a1a;
+    padding: 1.5rem;
+    border-radius: 10px;
+    flex-grow: 1;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.step-content:hover {
+    transform: translateY(-5px);
+}
+
+.step-tags {
+    margin-top: 1rem;
+}
+
+.step-tag {
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    background-color: #00ff9d;
+    color: #1a1a1a;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+    font-weight: bold;
+}
+
+/* Resources Section */
+.resources {
+    background-color: #2d2d2d;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.resource-card {
+    background-color: #1a1a1a;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.resource-card:hover {
+    transform: translateY(-5px);
+}
+
+.resource-link {
+    color: #00ff9d;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.resource-link:hover {
+    color: #00b8ff;
+}
+
+/* Footer */
+.footer {
+    background-color: #2d2d2d;
+    padding: 2rem 0;
+    margin-top: 4rem;
+}
+
+.footer a {
+    color: #00ff9d;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #00b8ff;
+}
+
+/* More Details Section */
+.more-details {
+    background-color: #2d2d2d;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.resource-link-container {
+    margin-top: 1.5rem;
+}
+
+.resource-link-btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: linear-gradient(135deg, #00ff9d, #00b8ff);
+    color: #1a1a1a;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 255, 157, 0.3);
+}
+
+.resource-link-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 255, 157, 0.4);
+    color: #1a1a1a;
+}
+
+.resource-link-btn i {
+    font-size: 0.9em;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .roadmap-header {
+        padding: 2rem 0;
+    }
+
+    .roadmap-step {
+        padding-left: 2.5rem;
+    }
+
+    .step-number {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+} 

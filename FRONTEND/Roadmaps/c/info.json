@@ -1,0 +1,54 @@
+{
+    "Beginner": {
+        "Overview": "Learn the fundamentals of C programming.",
+        "Topics": [
+            "C Installation and IDE Setup",
+            "Variables, Data Types, Operators",
+            "Control Flow (if, loops)",
+            "Functions",
+            "Arrays and Strings",
+            "Pointers Basics",
+            "File I/O"
+        ],
+        "Projects": [
+            "Simple Calculator",
+            "Student Record System",
+            "File Reader/Writer"
+        ],
+        "res":"https://www.geeksforgeeks.org/c-programming-for-beginners-a-20-day-curriculum/"
+    },
+    "Intermediate": {
+        "Overview": "Get deeper into pointers, memory management and structs.",
+        "Topics": [
+            "Structures and Unions",
+            "Advanced Pointers",
+            "Dynamic Memory Allocation (malloc, calloc)",
+            "Linked Lists",
+            "Bitwise Operators",
+            "Recursion"
+        ],
+        "Projects": [
+            "Dynamic Array Implementation",
+            "Singly Linked List",
+            "Mini Shell in C"
+        ],
+        "res":"https://www.geeksforgeeks.org/c-programming-for-beginners-a-20-day-curriculum/"
+    },
+    "Advanced": {
+        "Overview": "Focus on system-level programming and optimization.",
+        "Topics": [
+            "Multithreading with pthreads",
+            "Memory Management Techniques",
+            "File Systems and System Calls",
+            "Socket Programming",
+            "Compiler Design Basics",
+            "Performance Optimization"
+        ],
+        "Projects": [
+            "TCP Server-Client Chat",
+            "Custom Memory Allocator",
+            "Basic Shell Interpreter"
+        ],
+        "res":"https://www.geeksforgeeks.org/c-programming-for-beginners-a-20-day-curriculum/"
+    }
+}

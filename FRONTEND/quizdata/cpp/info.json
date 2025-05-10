@@ -1,0 +1,266 @@
+{
+    
+    
+        "Beginner": [
+            {
+              "question": "Which of the following is the correct way to declare a class in C++?",
+              "options": [
+                "class MyClass {}",
+                "class MyClass();",
+                "MyClass class {}",
+                "class: MyClass {}"
+              ],
+              "answer": "class MyClass {}"
+            },
+            {
+              "question": "What is the correct syntax for creating an object of a class `Car`?",
+              "options": [
+                "Car obj;",
+                "Car obj = new Car();",
+                "Car obj();",
+                "new Car obj;"
+              ],
+              "answer": "Car obj;"
+            },
+            {
+              "question": "Which of the following is used to define a constructor in C++?",
+              "options": [
+                "void constructor()",
+                "int constructor()",
+                "MyClass()",
+                "MyClass::MyClass()"
+              ],
+              "answer": "MyClass()"
+            },
+            {
+              "question": "Which of the following is used to access public members of a class in C++?",
+              "options": ["->", ".", "[]", "::"],
+              "answer": "."
+            },
+            {
+              "question": "What is the default access modifier for class members in C++?",
+              "options": ["private", "protected", "public", "no default"],
+              "answer": "private"
+            },
+            {
+              "question": "Which of the following C++ features allows a function or class to work with any data type?",
+              "options": ["Inheritance", "Templates", "Polymorphism", "Encapsulation"],
+              "answer": "Templates"
+            },
+            {
+              "question": "Which operator is used to allocate memory dynamically in C++?",
+              "options": ["new", "malloc", "calloc", "alloc"],
+              "answer": "new"
+            },
+            {
+              "question": "Which of the following is the correct way to define a destructor in C++?",
+              "options": [
+                "void ~MyClass()",
+                "~MyClass()",
+                "MyClass::~MyClass()",
+                "class::~MyClass()"
+              ],
+              "answer": "~MyClass()"
+            },
+            {
+              "question": "What is the correct way to define a pointer to an object in C++?",
+              "options": [
+                "MyClass *ptr;",
+                "ptr = new MyClass;",
+                "MyClass ptr;",
+                "MyClass &ptr;"
+              ],
+              "answer": "MyClass *ptr;"
+            },
+            {
+              "question": "What is the purpose of the `virtual` keyword in C++?",
+              "options": [
+                "To make a class abstract",
+                "To create an abstract function",
+                "To allow method overriding in derived classes",
+                "To create a global function"
+              ],
+              "answer": "To allow method overriding in derived classes"
+            }
+          ],
+          "Intermediate":[
+            {
+              "question": "What is the result of the following code?\n\n```cpp\nclass MyClass {\n  int x;\npublic:\n  MyClass() { x = 10; }\n  void print() { printf(\"%d\", x); }\n};\nMyClass obj;\nobj.print();\n```",
+              "options": ["10", "Error", "0", "Undefined behavior"],
+              "answer": "10"
+            },
+            {
+              "question": "What is the output of this code?\n\n```cpp\nint *p = new int(5);\ndelete p;\nprintf(\"%d\", *p);\n```",
+              "options": ["5", "0", "Undefined behavior", "Compiler Error"],
+              "answer": "Undefined behavior"
+            },
+            {
+              "question": "Which of the following statements about inheritance in C++ is true?",
+              "options": [
+                "A class can inherit from only one class (single inheritance)",
+                "A class can inherit from multiple classes (multiple inheritance)",
+                "A derived class can override only private members of the base class",
+                "In C++, inheritance is not supported"
+              ],
+              "answer": "A class can inherit from multiple classes (multiple inheritance)"
+            },
+            {
+              "question": "What is the purpose of the `this` pointer in C++?",
+              "options": [
+                "To refer to the calling object of the class",
+                "To return a new object",
+                "To access global variables",
+                "To delete the object"
+              ],
+              "answer": "To refer to the calling object of the class"
+            },
+            {
+              "question": "Which of the following is the correct way to define a friend function in C++?",
+              "options": [
+                "friend void func()",
+                "void func() friend",
+                "void func() { friend class MyClass; }",
+                "friend class MyClass::func();"
+              ],
+              "answer": "friend void func()"
+            },
+            {
+              "question": "Which of the following is the correct syntax for defining a template function in C++?",
+              "options": [
+                "template <typename T> void func(T a) {}",
+                "template void func<T>(T a) {}",
+                "function <template T> void func(T a) {}",
+                "void func(template <T> T a) {}"
+              ],
+              "answer": "template <typename T> void func(T a) {}"
+            },
+            {
+              "question": "What will happen if a virtual function is called using a base class pointer, but the object is of a derived class?",
+              "options": [
+                "The base class version of the function will be called",
+                "The derived class version will be called",
+                "Compiler error",
+                "Runtime error"
+              ],
+              "answer": "The derived class version will be called"
+            },
+            {
+              "question": "What is the correct way to handle exceptions in C++?",
+              "options": [
+                "try { } catch (Exception e) { }",
+                "try { } except (Exception e) { }",
+                "try { } catch (...) { }",
+                "throw e; catch { }"
+              ],
+              "answer": "try { } catch (...) { }"
+            },
+            {
+              "question": "Which function is used to find the size of an array at runtime in C++?",
+              "options": [
+                "sizeof",
+                "length()",
+                "size()",
+                "sizeof()"
+              ],
+              "answer": "sizeof"
+            },
+            {
+              "question": "What does the `explicit` keyword do in C++?",
+              "options": [
+                "Prevents implicit conversions and copy initialization",
+                "Allows implicit conversion for constructor parameters",
+                "Makes the constructor private",
+                "Specifies a static method"
+              ],
+              "answer": "Prevents implicit conversions and copy initialization"
+            }
+          ],
+          "Advanced":[
+            {
+              "question": "What will happen if a derived class constructor does not call the base class constructor explicitly?",
+              "options": [
+                "The base class constructor is called automatically",
+                "The compiler will throw an error",
+                "The derived class will not be able to access base class members",
+                "The base class constructor must be explicitly defined"
+              ],
+              "answer": "The base class constructor is called automatically"
+            },
+            {
+              "question": "What is the purpose of the `friend` keyword in C++?",
+              "options": [
+                "It allows a function or class to access private and protected members of another class",
+                "It makes a function available to all classes in a program",
+                "It restricts access to class members",
+                "It defines a global function"
+              ],
+              "answer": "It allows a function or class to access private and protected members of another class"
+            },
+            {
+              "question": "Which of the following correctly defines a `pure virtual function` in C++?",
+              "options": [
+                "virtual void func() = 0;",
+                "void virtual func() = 0;",
+                "virtual void func() {}",
+                "void func() = 0;"
+              ],
+              "answer": "virtual void func() = 0;"
+            },
+            {
+              "question": "What will the following code print?\n\n```cpp\nclass Base {\npublic:\n  virtual void show() { printf(\"Base class\"); }\n};\nclass Derived : public Base {\npublic:\n  void show() { printf(\"Derived class\"); }\n};\nBase* ptr = new Base();\nptr->show();\n```",
+              "options": ["Base class", "Derived class", "Compiler Error", "Undefined behavior"],
+              "answer": "Base class"
+            },
+            {
+              "question": "What will happen if the following code is executed?\n\n```cpp\nint main() {\n  try {\n    throw 'a';\n  }\n  catch (int e) {\n    printf(\"Caught an int\");\n  }\n  catch (char e) {\n    printf(\"Caught a char\");\n  }\n}\n```",
+              "options": [
+                "Caught an int",
+                "Caught a char",
+                "No output",
+                "Compiler error"
+              ],
+              "answer": "Caught a char"
+            },
+            {
+              "question": "What is the result of the following code?\n\n```cpp\nclass Base {\npublic:\n  virtual void func() { printf(\"Base class function\"); }\n};\nclass Derived : public Base {\npublic:\n  void func() { printf(\"Derived class function\"); }\n};\nint main() {\n  Base* ptr = new Derived();\n  ptr->func();\n}\n```",
+              "options": ["Base class function", "Derived class function", "Compiler Error", "Runtime Error"],
+              "answer": "Derived class function"
+            },
+            {
+              "question": "What is the purpose of a `static` keyword in C++?",
+              "options": [
+                "To specify that a variable's lifetime extends throughout the program",
+                "To make a function local to a file",
+                "To limit a variable's scope to a function",
+                "To allow a variable to retain its value between function calls"
+              ],
+              "answer": "To allow a variable to retain its value between function calls"
+            },
+            {
+              "question": "Which of the following is the correct syntax to create a thread in C++11 and beyond?",
+              "options": [
+                "std::thread t(func);",
+                "thread t(func);",
+                "t = new thread(func);",
+                "thread t(func())"
+              ],
+              "answer": "std::thread t(func);"
+            },
+            {
+              "question": "Which of the following C++ constructs can lead to undefined behavior if not properly managed?",
+              "options": [
+                "Memory leaks",
+                "Dangling pointers",
+                "Multiple inheritance",
+                "All of the above"
+              ],
+              "answer": "All of the above"
+            },
+            {
+              "question": "What is the result of the following code?\n\n```cpp\nint arr[] = {1, 2, 3, 4};\nint* ptr = arr;\nptr += 2;\nprintf(\"%d\", *ptr);\n```",
+              "options": ["3", "4", "1", "Error"],
+              "answer": "3"
+            }
+          ]
+          
+    }

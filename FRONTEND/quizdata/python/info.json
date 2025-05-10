@@ -1,0 +1,312 @@
+{
+    
+ 
+        "Beginner": [
+          {
+            "question": "Which of the following is the correct syntax to output 'Hello World' in Python?",
+            "options": [
+              "echo 'Hello World'",
+              "print('Hello World')",
+              "println('Hello World')",
+              "cout << 'Hello World'"
+            ],
+            "answer": "print('Hello World')"
+          },
+          {
+            "question": "Which data type is used to store whole numbers in Python?",
+            "options": [
+              "int",
+              "float",
+              "char",
+              "str"
+            ],
+            "answer": "int"
+          },
+          {
+            "question": "What is the result of `3 + 2 * 2` in Python?",
+            "options": [
+              "7",
+              "10",
+              "8",
+              "5"
+            ],
+            "answer": "7"
+          },
+          {
+            "question": "How do you declare a list in Python?",
+            "options": [
+              "list = (1, 2, 3)",
+              "list = [1, 2, 3]",
+              "list = {1, 2, 3}",
+              "list = 1, 2, 3"
+            ],
+            "answer": "list = [1, 2, 3]"
+          },
+          {
+            "question": "Which of the following is used to take user input in Python?",
+            "options": [
+              "input()",
+              "scan()",
+              "raw_input()",
+              "get()"
+            ],
+            "answer": "input()"
+          },
+          {
+            "question": "Which of the following is the correct way to declare a dictionary in Python?",
+            "options": [
+              "dict = { 'name' : 'John', 'age' : 30 }",
+              "dict = [ 'name' : 'John', 'age' : 30 ]",
+              "dict = ( 'name' : 'John', 'age' : 30 )",
+              "dict = 'name' : 'John', 'age' : 30"
+            ],
+            "answer": "dict = { 'name' : 'John', 'age' : 30 }"
+          },
+          {
+            "question": "What is the output of the following code?\n\n```python\nx = 5\nprint(x > 3 and x < 10)\n```",
+            "options": [
+              "True",
+              "False",
+              "Error",
+              "None"
+            ],
+            "answer": "True"
+          },
+          {
+            "question": "Which of the following is the correct way to define a function in Python?",
+            "options": [
+              "def my_function() {}",
+              "function my_function() {}",
+              "def my_function():",
+              "function my_function():"
+            ],
+            "answer": "def my_function():"
+          },
+          {
+            "question": "What is the purpose of `self` in Python class methods?",
+            "options": [
+              "To represent the instance of the class",
+              "To access global variables",
+              "To define a method for all instances",
+              "None of the above"
+            ],
+            "answer": "To represent the instance of the class"
+          },
+          {
+            "question": "Which of the following methods is used to add an element to a list in Python?",
+            "options": [
+              "append()",
+              "insert()",
+              "add()",
+              "push()"
+            ],
+            "answer": "append()"
+          }
+        ],
+      
+        "Intermediate": [
+          {
+            "question": "What will be the output of the following code?\n\n```python\nx = [1, 2, 3]\nprint(x[1])\n```",
+            "options": [
+              "1",
+              "2",
+              "3",
+              "Error"
+            ],
+            "answer": "2"
+          },
+          {
+            "question": "Which of the following is the correct way to handle exceptions in Python?",
+            "options": [
+              "try {} catch {}",
+              "try {} except {}",
+              "try {} finally {}",
+              "except {} try {}"
+            ],
+            "answer": "try {} except {}"
+          },
+          {
+            "question": "What is the difference between `deepcopy()` and `copy()` in Python?",
+            "options": [
+              "deepcopy creates a new object and recursively copies all objects, copy creates a shallow copy",
+              "deepcopy creates a shallow copy, copy creates a deep copy",
+              "copy creates a new object, deepcopy does not",
+              "There is no difference"
+            ],
+            "answer": "deepcopy creates a new object and recursively copies all objects, copy creates a shallow copy"
+          },
+          {
+            "question": "Which of the following statements is true about the Python `global` keyword?",
+            "options": [
+              "It is used to define a global variable",
+              "It is used to modify a variable inside a function from the global scope",
+              "It is used to define global functions",
+              "It is not a valid Python keyword"
+            ],
+            "answer": "It is used to modify a variable inside a function from the global scope"
+          },
+          {
+            "question": "What does the following Python code do?\n\n```python\nx = [1, 2, 3]\nx.extend([4, 5])\nprint(x)\n```",
+            "options": [
+              "[1, 2, 3, 4, 5]",
+              "[1, 2, 3, [4, 5]]",
+              "[4, 5, 1, 2, 3]",
+              "Error"
+            ],
+            "answer": "[1, 2, 3, 4, 5]"
+          },
+          {
+            "question": "What will be the output of the following code?\n\n```python\nx = {1, 2, 3}\nprint(3 in x)\n```",
+            "options": [
+              "True",
+              "False",
+              "Error",
+              "None"
+            ],
+            "answer": "True"
+          },
+          {
+            "question": "Which of the following is used to create a generator in Python?",
+            "options": [
+              "def my_gen(): yield 1, 2",
+              "def my_gen(): return 1, 2",
+              "def my_gen(): continue 1, 2",
+              "def my_gen(): pass 1, 2"
+            ],
+            "answer": "def my_gen(): yield 1, 2"
+          },
+          {
+            "question": "What is the output of the following code?\n\n```python\nx = 'Hello'\ny = 'world'\nprint(x + ' ' + y)\n```",
+            "options": [
+              "'Helloworld'",
+              "'Hello world'",
+              "'Hello world!'",
+              "'Helloworld!'"
+            ],
+            "answer": "'Hello world'"
+          },
+          {
+            "question": "Which of the following statements is true about Python lists and tuples?",
+            "options": [
+              "Tuples are mutable, and lists are immutable.",
+              "Both lists and tuples are mutable.",
+              "Lists are mutable, and tuples are immutable.",
+              "Neither lists nor tuples are mutable."
+            ],
+            "answer": "Lists are mutable, and tuples are immutable."
+          },
+          {
+            "question": "What is the purpose of `@staticmethod` in Python?",
+            "options": [
+              "To define a static method that doesn't access instance variables",
+              "To define a static method that can access instance variables",
+              "To define a method that only works with class variables",
+              "To define a method that works with instance variables"
+            ],
+            "answer": "To define a static method that doesn't access instance variables"
+          }
+        ],
+      
+        "Advanced": [
+          {
+            "question": "What will the following code output?\n\n```python\nclass MyClass:\n  def __init__(self, x):\n    self.x = x\n  def __str__(self):\n    return f'MyClass with x={self.x}'\n\nobj = MyClass(10)\nprint(obj)\n```",
+            "options": [
+              "MyClass with x=10",
+              "MyClass object",
+              "Error",
+              "None"
+            ],
+            "answer": "MyClass with x=10"
+          },
+          {
+            "question": "Which of the following statements is true about Python's `decorators`?",
+            "options": [
+              "Decorators are used to modify functions or methods at runtime.",
+              "Decorators cannot be used with classes.",
+              "Decorators are applied using the `@` syntax.",
+              "Both A and C are correct."
+            ],
+            "answer": "Both A and C are correct."
+          },
+          {
+            "question": "What is the result of the following Python code?\n\n```python\nx = 10\ndef func():\n  global x\n  x = 20\nfunc()\nprint(x)\n```",
+            "options": [
+              "10",
+              "20",
+              "Error",
+              "None"
+            ],
+            "answer": "20"
+          },
+          {
+            "question": "Which of the following is used to define a class method in Python?",
+            "options": [
+              "def method(self):",
+              "def method(cls):",
+              "def classmethod(cls):",
+              "def classmethod(self):"
+            ],
+            "answer": "def classmethod(cls):"
+          },
+          {
+            "question": "What is the result of the following code?\n\n```python\nx = [1, 2, 3]\nprint(x[1:2])\n```",
+            "options": [
+              "[2]",
+              "[1, 2]",
+              "[2, 3]",
+              "Error"
+            ],
+            "answer": "[2]"
+          },
+          {
+            "question": "What will happen if you try to modify a tuple in Python?",
+            "options": [
+              "It will raise a TypeError.",
+              "It will modify the tuple.",
+              "It will raise an AttributeError.",
+              "It will silently ignore the change."
+            ],
+            "answer": "It will raise a TypeError."
+          },
+          {
+            "question": "Which of the following methods is used to convert a string to a float in Python?",
+            "options": [
+              "float()",
+              "str()",
+              "int()",
+              "convert()"
+            ],
+            "answer": "float()"
+          },
+          {
+            "question": "Which of the following is used to create a custom exception in Python?",
+            "options": [
+              "class CustomException(Exception):",
+              "def CustomException(Exception):",
+              "exception CustomException(Exception):",
+              "CustomException(Exception){}"
+            ],
+            "answer": "class CustomException(Exception):"
+          },
+          {
+            "question": "Which of the following is the correct way to define a private method in Python?",
+            "options": [
+              "def __private_method():",
+              "def private_method():",
+              "def _private_method():",
+              "None of the above"
+            ],
+            "answer": "def __private_method():"
+          },
+          {
+            "question": "What is the output of the following Python code?\n\n```python\nx = {1, 2, 3, 4}\ny = {3, 4, 5, 6}\nprint(x & y)\n```",
+            "options": [
+              "{3, 4}",
+              "{1, 2, 3, 4}",
+              "{5, 6}",
+              "{1, 2, 5, 6}"
+            ],
+            "answer": "{3, 4}"
+          }
+        ]
+      }

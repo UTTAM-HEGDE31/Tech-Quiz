@@ -1,0 +1,181 @@
+{
+ 
+        "Beginner": [
+          {
+            "question": "What is the time complexity of binary search?",
+            "options": ["O(n)", "O(log n)", "O(n^2)", "O(1)"],
+            "answer": "O(log n)"
+          },
+          {
+            "question": "Which of the following algorithms is used for sorting?",
+            "options": ["DFS", "BFS", "Bubble Sort", "Dijkstra's Algorithm"],
+            "answer": "Bubble Sort"
+          },
+          {
+            "question": "Which algorithm technique divides the problem into subproblems and solves them recursively?",
+            "options": ["Greedy", "Dynamic Programming", "Backtracking", "Divide and Conquer"],
+            "answer": "Divide and Conquer"
+          },
+          {
+            "question": "What does the Big O notation describe?",
+            "options": [
+              "The actual running time",
+              "The best case of an algorithm",
+              "The exact number of steps",
+              "The upper bound of an algorithm's growth rate"
+            ],
+            "answer": "The upper bound of an algorithm's growth rate"
+          },
+          {
+            "question": "What is the base case in recursion?",
+            "options": [
+              "The initial value",
+              "The condition to stop recursion",
+              "The maximum input size",
+              "None of these"
+            ],
+            "answer": "The condition to stop recursion"
+          },
+          {
+            "question": "Which sorting algorithm repeatedly swaps adjacent elements if they are in the wrong order?",
+            "options": ["Quick Sort", "Merge Sort", "Bubble Sort", "Heap Sort"],
+            "answer": "Bubble Sort"
+          },
+          {
+            "question": "Which is faster on average: linear search or binary search?",
+            "options": ["Linear", "Binary", "Equal", "Depends on compiler"],
+            "answer": "Binary"
+          },
+          {
+            "question": "Which sorting algorithm is best for nearly sorted data?",
+            "options": ["Insertion Sort", "Selection Sort", "Heap Sort", "Quick Sort"],
+            "answer": "Insertion Sort"
+          },
+          {
+            "question": "Which algorithm finds the shortest path in a graph with non-negative weights?",
+            "options": ["DFS", "Kruskal's", "Dijkstra's", "Prim's"],
+            "answer": "Dijkstra's"
+          },
+          {
+            "question": "Which algorithm uses recursion to solve a problem by trying out all possibilities?",
+            "options": ["Dynamic Programming", "Backtracking", "Greedy", "Hashing"],
+            "answer": "Backtracking"
+          }
+        ],
+      
+        "Intermediate": [
+          {
+            "question": "What is the worst-case time complexity of Quick Sort?",
+            "options": ["O(n log n)", "O(log n)", "O(n^2)", "O(n)"],
+            "answer": "O(n^2)"
+          },
+          {
+            "question": "Which algorithm is used to find the Minimum Spanning Tree in a graph?",
+            "options": ["Dijkstra", "Bellman-Ford", "Kruskal", "Floyd-Warshall"],
+            "answer": "Kruskal"
+          },
+          {
+            "question": "Which of the following is NOT a stable sorting algorithm?",
+            "options": ["Merge Sort", "Bubble Sort", "Heap Sort", "Insertion Sort"],
+            "answer": "Heap Sort"
+          },
+          {
+            "question": "What is the best case time complexity of Insertion Sort?",
+            "options": ["O(n)", "O(n log n)", "O(n^2)", "O(1)"],
+            "answer": "O(n)"
+          },
+          {
+            "question": "What does memoization help with in algorithms?",
+            "options": [
+              "Reducing space complexity",
+              "Avoiding recursion",
+              "Avoiding redundant calculations",
+              "Sorting arrays faster"
+            ],
+            "answer": "Avoiding redundant calculations"
+          },
+          {
+            "question": "Which technique does Dynamic Programming follow?",
+            "options": [
+              "Divide and Conquer",
+              "Greedy",
+              "Memoization and Tabulation",
+              "Backtracking"
+            ],
+            "answer": "Memoization and Tabulation"
+          },
+          {
+            "question": "Which algorithm is more efficient for searching in a sorted matrix?",
+            "options": ["Binary Search", "DFS", "Linear Search", "Row-wise Binary Search"],
+            "answer": "Row-wise Binary Search"
+          },
+          {
+            "question": "Which algorithm works well for fractional knapsack problem?",
+            "options": ["Dynamic Programming", "Greedy", "Backtracking", "Recursion"],
+            "answer": "Greedy"
+          },
+          {
+            "question": "Which graph traversal technique uses a queue?",
+            "options": ["DFS", "Dijkstra", "BFS", "Bellman-Ford"],
+            "answer": "BFS"
+          },
+          {
+            "question": "Which data structure is typically used in recursion internally?",
+            "options": ["Queue", "Stack", "Heap", "Linked List"],
+            "answer": "Stack"
+          }
+        ],
+      
+        "Advanced": [
+          {
+            "question": "Which algorithm detects negative weight cycles in a graph?",
+            "options": ["Dijkstra", "Bellman-Ford", "Prim", "Kruskal"],
+            "answer": "Bellman-Ford"
+          },
+          {
+            "question": "Which problem cannot be solved using the greedy approach?",
+            "options": ["Fractional Knapsack", "Minimum Spanning Tree", "Huffman Coding", "0/1 Knapsack"],
+            "answer": "0/1 Knapsack"
+          },
+          {
+            "question": "What is the time complexity of Merge Sort in the worst case?",
+            "options": ["O(n^2)", "O(n)", "O(n log n)", "O(log n)"],
+            "answer": "O(n log n)"
+          },
+          {
+            "question": "Which algorithm is used in Huffman encoding?",
+            "options": ["Greedy", "Dynamic Programming", "Backtracking", "Divide and Conquer"],
+            "answer": "Greedy"
+          },
+          {
+            "question": "Which sorting algorithm is not based on comparisons?",
+            "options": ["Merge Sort", "Heap Sort", "Counting Sort", "Quick Sort"],
+            "answer": "Counting Sort"
+          },
+          {
+            "question": "Which algorithm solves the Longest Common Subsequence (LCS) problem efficiently?",
+            "options": ["Backtracking", "Greedy", "Dynamic Programming", "Divide and Conquer"],
+            "answer": "Dynamic Programming"
+          },
+          {
+            "question": "What is the recurrence relation for Merge Sort?",
+            "options": ["T(n) = 2T(n/2) + n", "T(n) = T(n-1) + 1", "T(n) = T(n/2) + 1", "T(n) = nT(n-1)"],
+            "answer": "T(n) = 2T(n/2) + n"
+          },
+          {
+            "question": "Which algorithm is suitable for finding strongly connected components in a graph?",
+            "options": ["Tarjan's Algorithm", "Kruskal's", "Prim's", "Dijkstra's"],
+            "answer": "Tarjan's Algorithm"
+          },
+          {
+            "question": "What is the time complexity of Floyd-Warshall Algorithm?",
+            "options": ["O(n^2)", "O(n^3)", "O(n log n)", "O(n)"],
+            "answer": "O(n^3)"
+          },
+          {
+            "question": "Which algorithm is used in AI for decision making in games?",
+            "options": ["Minimax", "Greedy", "A*", "Dijkstra"],
+            "answer": "Minimax"
+          }
+        ]
+      }

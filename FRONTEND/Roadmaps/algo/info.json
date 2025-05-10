@@ -1,0 +1,50 @@
+{
+    "Beginner": {
+        "Overview": "Learn the basics of problem solving and simple algorithms.",
+        "Topics": [
+            "Sorting and Searching",
+            "Recursion and Backtracking",
+            "Greedy Algorithms Basics",
+            "Time and Space Complexity",
+            "Brute Force vs Optimal"
+        ],
+        "Projects": [
+            "Sudoku Solver (Backtracking)",
+            "Basic Sorting Visualizer",
+            "Coin Change Problem"
+        ],
+        "res": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/"
+    },
+    "Intermediate": {
+        "Overview": "Explore dynamic programming and graph algorithms.",
+        "Topics": [
+            "Dynamic Programming (Memoization, Tabulation)",
+            "Graph Traversals",
+            "Greedy Techniques",
+            "Two Pointer and Sliding Window",
+            "Bit Manipulation"
+        ],
+        "Projects": [
+            "Knapsack Problem Solver",
+            "Topological Sort Visualizer",
+            "Minimum Spanning Tree"
+        ],
+        "res": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/"
+    },
+    "Advanced": {
+        "Overview": "Handle advanced graph problems and algorithm design patterns.",
+        "Topics": [
+            "Advanced DP (Digit DP, DP on Trees)",
+            "Graph Algorithms (Bellman-Ford, Floyd-Warshall)",
+            "Network Flow (Max Flow, Min Cut)",
+            "Advanced Greedy and Heuristics",
+            "Game Theory Basics"
+        ],
+        "Projects": [
+            "Max Flow Problem Solver",
+            "Shortest Path Visualizer",
+            "Algorithm Performance Benchmark"
+        ],
+        "res": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/"
+    }
+}

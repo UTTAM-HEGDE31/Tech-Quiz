@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Roadmap</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="roadmap.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">TechQuiz</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Roadmap Header -->
+    <div class="roadmap-header">
+        <div class="container">
+            <h1 id="domain-title">Learning Roadmap</h1>
+            <p id="domain-description" class="lead">Your personalized learning path based on your assessment results.</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+        <!-- Skill Level Section -->
+        <div class="skill-level mb-5">
+            <h3>Your Current Skill Level</h3>
+            <div class="skill-progress-container">
+                <div id="skill-progress" class="skill-progress"></div>
+            </div>
+            <p id="skill-description" class="mt-3">Based on your quiz performance</p>
+        </div>
+
+        <!-- Learning Path Section -->
+        <div class="learning-path mb-5">
+            <h3>Your Learning Path</h3>
+            <div id="roadmap-steps" class="roadmap-steps">
+                <!-- Steps will be dynamically added here -->
+            </div>
+        </div>
+
+        <!-- Resources Section -->
+        <div class="resources mb-5">
+            <h3>Recommended Projects</h3>
+            <div class="row" id="resources-container">
+                <!-- Project cards will be dynamically added here -->
+            </div>
+        </div>
+
+        <!-- More Details Section -->
+        <div class="more-details mb-5">
+            <h3>For More Details</h3>
+            <div class="resource-link-container">
+                <a href="#" id="resource-link" class="resource-link-btn" target="_blank">
+                    <i class="fas fa-external-link-alt me-2"></i>
+                    Explore Additional Resources
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>TechQuiz</h5>
+                    <p>Your personalized learning journey starts here.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a href="#">Terms</a></li>
+                        <li class="list-inline-item"><a href="#">Privacy</a></li>
+                        <li class="list-inline-item"><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="roadmap.js"></script>
+</body>
+</html>

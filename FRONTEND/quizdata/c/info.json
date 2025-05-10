@@ -1,0 +1,215 @@
+{
+
+        "Beginner":[
+            {
+              "question": "Which of the following correctly declares a function that takes two integers and returns an integer?",
+              "options": [
+                "int sum(a, b)",
+                "int sum(int a, int b)",
+                "function sum(int a, int b)",
+                "sum(int a, int b) -> int"
+              ],
+              "answer": "int sum(int a, int b)"
+            },
+            {
+              "question": "What will be the output of the following code?\n\n```c\nint x = 5;\nprintf(\"%d\", x++);\n```",
+              "options": ["5", "6", "Undefined behavior", "Compiler Error"],
+              "answer": "5"
+            },
+            {
+              "question": "Which of the following types is most suitable for storing the ASCII value of a character?",
+              "options": ["char", "int", "float", "double"],
+              "answer": "int"
+            },
+            {
+              "question": "Which of the following best describes how arguments are passed to functions in C?",
+              "options": ["By reference", "By value", "By pointer always", "Depends on compiler"],
+              "answer": "By value"
+            },
+            {
+              "question": "What will `sizeof(char)` typically return?",
+              "options": ["2", "4", "1", "Depends on system"],
+              "answer": "1"
+            },
+            {
+              "question": "Which of the following is NOT a valid storage class specifier in C?",
+              "options": ["auto", "register", "heap", "static"],
+              "answer": "heap"
+            },
+            {
+              "question": "What will be the output of:\n\n```c\nint a = 4, b = 2;\nprintf(\"%d\", a / b);\n```",
+              "options": ["2.0", "2", "2.00", "Compiler Error"],
+              "answer": "2"
+            },
+            {
+              "question": "Which keyword prevents a variable from being modified?",
+              "options": ["final", "lock", "const", "volatile"],
+              "answer": "const"
+            },
+            {
+              "question": "Which of the following is used to denote a single-line comment in C?",
+              "options": ["//", "#", "--", "/* */"],
+              "answer": "//"
+            },
+            {
+              "question": "Which segment of memory is used to store local function variables in C?",
+              "options": ["Heap", "Stack", "Data", "Text"],
+              "answer": "Stack"
+            }
+          ],
+          "Intermediate":[
+            {
+              "question": "What will be the output of the following code?\n\n```c\nint x = 5;\nint *p = &x;\n*p = 10;\nprintf(\"%d\", x);\n```",
+              "options": ["5", "10", "Memory Address", "Error"],
+              "answer": "10"
+            },
+            {
+              "question": "Which of the following is true about pointers in C?",
+              "options": [
+                "A pointer stores the value of a variable.",
+                "A pointer stores the memory address of a variable.",
+                "A pointer is a special type of variable.",
+                "Pointers cannot be used with functions."
+              ],
+              "answer": "A pointer stores the memory address of a variable."
+            },
+            {
+              "question": "What will happen when you try to dereference a NULL pointer?",
+              "options": ["It will return 0", "It will cause a segmentation fault", "It will return a random value", "It will return NULL"],
+              "answer": "It will cause a segmentation fault"
+            },
+            {
+              "question": "Which function in C is used to allocate memory dynamically?",
+              "options": ["malloc()", "alloc()", "calloc()", "malloc64()"],
+              "answer": "malloc()"
+            },
+            {
+              "question": "What is the output of this code?\n\n```c\nint arr[] = {1, 2, 3, 4};\nprintf(\"%d\", *(arr + 2));\n```",
+              "options": ["3", "2", "4", "1"],
+              "answer": "3"
+            },
+            {
+              "question": "What is the main difference between `malloc()` and `calloc()` in C?",
+              "options": [
+                "`malloc()` initializes the memory; `calloc()` does not.",
+                "`calloc()` initializes the memory to zero; `malloc()` does not.",
+                "`malloc()` returns memory for arrays; `calloc()` does not.",
+                "Both functions are identical."
+              ],
+              "answer": "`calloc()` initializes the memory to zero; `malloc()` does not."
+            },
+            {
+              "question": "What is the result of the following code?\n\n```c\nint x = 5;\nif (x > 3) {\n  if (x < 10) {\n    printf(\"True\");\n  }\n}\n```",
+              "options": ["True", "False", "Error", "No output"],
+              "answer": "True"
+            },
+            {
+              "question": "What is the output of the following code?\n\n```c\nint x = 10;\nint *p = &x;\n*p = *p + 5;\nprintf(\"%d\", x);\n```",
+              "options": ["15", "10", "5", "Error"],
+              "answer": "15"
+            },
+            {
+              "question": "What does the `free()` function do in C?",
+              "options": [
+                "Releases memory allocated by `malloc()` or `calloc()`",
+                "Deallocates memory at the end of a program",
+                "Allocates memory for dynamic arrays",
+                "None of the above"
+              ],
+              "answer": "Releases memory allocated by `malloc()` or `calloc()`"
+            },
+            {
+              "question": "Which of the following is NOT a valid use of recursion in C?",
+              "options": [
+                "Fibonacci sequence calculation",
+                "Binary search on an array",
+                "Iterating over a list of numbers",
+                "Factorial calculation"
+              ],
+              "answer": "Iterating over a list of numbers"
+            }
+          ],
+          "Advanced":[
+            {
+              "question": "What will be the result of the following code?\n\n```c\nint a = 10;\nint *p = &a;\n(*p)++;\nprintf(\"%d\", a);\n```",
+              "options": ["10", "11", "Error", "Undefined behavior"],
+              "answer": "11"
+            },
+            {
+              "question": "Which of the following is a key reason why C programming is considered low-level?",
+              "options": [
+                "It provides control over hardware resources like memory and CPU",
+                "It does not support object-oriented programming",
+                "It is only used for system-level programming",
+                "It is harder to learn than high-level languages"
+              ],
+              "answer": "It provides control over hardware resources like memory and CPU"
+            },
+            {
+              "question": "What is the correct way to define a function that uses variable-length arguments in C?",
+              "options": [
+                "void func(...);",
+                "int func(int a, ...);",
+                "void func(int a, va_list args);",
+                "int func(va_list args);"
+              ],
+              "answer": "int func(int a, ...);"
+            },
+            {
+              "question": "What will happen if you attempt to access memory beyond the bounds of an array in C?",
+              "options": [
+                "Segmentation fault or undefined behavior",
+                "Array will expand automatically",
+                "Nothing will happen",
+                "Compiler error"
+              ],
+              "answer": "Segmentation fault or undefined behavior"
+            },
+            {
+              "question": "In a function, which of the following keywords can be used to pass arguments by reference in C?",
+              "options": ["&", "*", "ref", "call"],
+              "answer": "&"
+            },
+            {
+              "question": "What is the result of the following code?\n\n```c\nint x = 10;\nint y = 20;\nint *p = &x;\n*p = y;\nprintf(\"%d\", x);\n```",
+              "options": ["10", "20", "Error", "Undefined behavior"],
+              "answer": "20"
+            },
+            {
+              "question": "Which C feature is primarily responsible for memory leaks in dynamic memory allocation?",
+              "options": [
+                "Uninitialized pointers",
+                "Not calling `free()` on dynamically allocated memory",
+                "Stack memory",
+                "Global variables"
+              ],
+              "answer": "Not calling `free()` on dynamically allocated memory"
+            },
+            {
+              "question": "What does the `static` keyword do when used in a function?",
+              "options": [
+                "Makes the function accessible across multiple files",
+                "Preserves the value of a local variable across function calls",
+                "Prevents recursion in the function",
+                "None of the above"
+              ],
+              "answer": "Preserves the value of a local variable across function calls"
+            },
+            {
+              "question": "Which of the following is used to create a pointer to a function in C?",
+              "options": [
+                "function *ptr",
+                "ptr = &function",
+                "ptr = function()",
+                "function ptr()"
+              ],
+              "answer": "ptr = &function"
+            },
+            {
+              "question": "What does the following code output?\n\n```c\nint *p;\nint arr[5] = {1, 2, 3, 4, 5};\np = arr + 2;\nprintf(\"%d\", *p);\n```",
+              "options": ["3", "2", "5", "1"],
+              "answer": "3"
+            }
+          ]    
+          
+    }

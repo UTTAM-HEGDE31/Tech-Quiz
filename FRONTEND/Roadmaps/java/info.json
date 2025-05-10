@@ -1,0 +1,55 @@
+{
+    "Beginner": {
+        "Overview": "Start with Java basics and learn object-oriented programming.",
+        "Topics": [
+            "Java Installation and IDE Setup",
+            "Variables, Data Types, Operators",
+            "Control Structures (if, switch, loops)",
+            "Functions and Scope",
+            "Basic OOP: Classes and Objects",
+            "Arrays and Strings",
+            "Exception Handling"
+        ],
+        "Projects": [
+            "Simple Calculator",
+            "Bank Account Simulation",
+            "Basic Contact Book"
+        ],
+        "res": "https://roadmap.sh/java"
+    },
+    "Intermediate": {
+        "Overview": "Advance into collections, file handling, and GUI programming.",
+        "Topics": [
+            "Collections Framework",
+            "File I/O",
+            "Multithreading Basics",
+            "GUI with Swing/JavaFX",
+            "JDBC and Database Connectivity",
+            "Intro to Unit Testing with JUnit"
+        ],
+        "Projects": [
+            "Library Management System",
+            "Student Grade Manager",
+            "Multithreaded File Downloader"
+        ],
+        "res": "https://roadmap.sh/java"
+    },
+    "Advanced": {
+        "Overview": "Master Java enterprise features and performance tuning.",
+        "Topics": [
+            "Advanced Multithreading & Concurrency",
+            "Design Patterns",
+            "Spring Framework",
+            "REST API Development",
+            "JVM Internals & Garbage Collection",
+            "Security and Authentication",
+            "Java Performance Tuning"
+        ],
+        "Projects": [
+            "Full Stack Spring Boot Application",
+            "REST API with JWT Authentication",
+            "E-Commerce Backend with MySQL"
+        ],
+         "res": "https://roadmap.sh/java"
+    }
+}

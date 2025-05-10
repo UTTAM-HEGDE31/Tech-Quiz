@@ -1,0 +1,53 @@
+{
+    "Beginner": {
+        "Overview": "Understand core data structures and their operations.",
+        "Topics": [
+            "Arrays and Strings",
+            "Stacks and Queues",
+            "Linked Lists",
+            "Basic Hashing",
+            "Trees Introduction",
+            "Recursion"
+        ],
+        "Projects": [
+            "Stack and Queue Implementation",
+            "Palindrome Checker",
+            "Simple Tree Traversal"
+        ],
+        "res":"https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/"
+    },
+    "Intermediate": {
+        "Overview": "Implement more complex structures and understand time complexity.",
+        "Topics": [
+            "Binary Search Trees",
+            "Heaps and Priority Queues",
+            "Graphs and Traversals (BFS, DFS)",
+            "Hash Maps",
+            "Trie Data Structure",
+            "Complexity Analysis"
+        ],
+        "Projects": [
+            "Graph Traversal Visualizer",
+            "Auto Suggest using Trie",
+            "Priority Queue Simulation"
+        ],
+        "res":"https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/"
+    },
+    "Advanced": {
+        "Overview": "Master advanced trees, segment structures, and optimization techniques.",
+        "Topics": [
+            "Segment Trees and Fenwick Trees",
+            "Disjoint Set Union (DSU)",
+            "AVL and Red-Black Trees",
+            "Graph Algorithms (Dijkstra, Kruskal)",
+            "Suffix Arrays",
+            "Memory-efficient Structures"
+        ],
+        "Projects": [
+            "Dynamic Range Query Solver",
+            "Social Network Connection Tracker",
+            "Pathfinding in Maps"
+        ],
+        "res":"https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/"
+    }
+}
